@@ -113,7 +113,7 @@ func (d *RecordsService) RecordModify(r *RecordModify) (interface{}, *http.Respo
 	data := map[string]string{
 		"Action":     "RecordModify",
 		"domain":     r.Domain,
-		"recordId":   strconv.Itoa(r.recordId),
+		"recordId":   strconv.Itoa(r.RecordId),
 		"subDomain":  r.SubDomain,
 		"recordType": r.RecordType,
 		"recordLine": r.RecordLine,
