@@ -31,7 +31,7 @@ type RecordList struct {
 
 type RecordModify struct {
 	Domain     string
-	recordId   int
+	RecordId   int
 	SubDomain  string
 	RecordType string
 	RecordLine string
